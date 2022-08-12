@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+    margin-bottom: 60px;
+    padding-left: 50px;
+    width: 280px;
+    background-color: lavenderblush;
+    overflow-x: hidden;
+    overflow-y:visible;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Colocar CPF, E-mail... para o meio*/
+.container {
+    position: absolute;
+    left: 300px;
+    top: 25px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tirar o negrito e deixar as letras finas */
+.naonegrito {
+    font-weight: normal;
+    
+}
+.fina{
+    font-weight:600;
+}
+/* Colocar Dados complementares e Endereço para a direita */
+.lado{
+    width:800px;
+    margin-left:100px;
+    margin-top: 200px;
+    background:white;
+    line-height:30px;
+    padding-bottom:40px;
+}
+
+/* Formatação dos Dados complementares e Endereço*/
+.btn {
+    background-color: white;
+    outline: none;
+}
+
+/* Posição das informações dos dados e endereço */
+.show {
+    position: relative;
+    left: 150px;
+}
+.collapsing {
+    position: relative;
+    left: 150px;
+}
+
+/* Tirar borda preta */
+:focus {
+    outline: 0 !important;
+}
+
+/* Posição do botão de senha */
+.botao {
+    position:relative;
+    top:20px;
+    right:20px;
+    padding: 5px 80px 5px 80px;
+    border-width:1px;
+    border-radius:6px;
+    border-style:solid;
+    border-color:darkgrey;
+    background:white;
+
+    
+}
+    .botao:hover {
+        background: #DCDCDC;
+    }
+
+/* Texto "SIS00701 para o canto da tela */
+.canto{
+    font-size:10px;
+    color:darkgrey;
+    padding-left:620%;
+}
+
+/* Espaço entre o cabeçalho e o meio */
+.espaco{
+    padding-top:30px;
+}
+
+/* Fotinha de perfil */
+.perfil {
+    border-radius:50%; 
+    position: relative;
+    left:75px;
+    top:5px;
+}
+
+
+
