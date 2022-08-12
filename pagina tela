@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]DIDATIKO</title>
+    <link rel="icon" type="image/ico" href="https://www.joinvillevagas.com.br/wp-content/uploads/company_logos/2021/09/Logo-didatiko-marca-registrada-1.png">
+    <link rel="stylesheet" href="~/lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Edicaopagedidatiko.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="card">
+            <div class="row">
+                <section style="position:relative; left:17px; top:15px; width:1000px">
+                    <h4 style="font-size:20px"><span class="naonegrito">Minha conta</span></h4>
+                    <p style="font-size:15px; color:grey">
+                    <img src="https://cdn-icons-png.flaticon.com/512/889/889742.png" width:20px; height="20";/> Sistema >> Minha Conta >> Visão Geral
+                    </p>
+                </section>
+            </div>
+        </div>        
+        <div class="espaco">
+            <div style="border:hidden; width:1298px">
+                <div style="background-color:white">
+                    <div style="display:inline-block;vertical-align:central;">
+                        <img src="https://prints.ultracoloringpages.com/9cc7991439bf382d88d5a2fc0889a464.png  " width:25px height="29" style="position:relative; top:4px; left:6px;"/>                                        
+                        <div style="display:inline-block;vertical-align:central">
+                            <h6 style="font-size: 20px;position:relative;top:7.5px;left:12px;"><span class="naonegrito">DIDATIKO</span></h6>
+                        </div>
+                        <hr/>
+                        <div class="row">    
+                            <div class="col-md-3">
+                                <div class="perfil">
+                                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" style="border-radius:50%; width:200px;"/>
+                                    <button type="button" onclick="    getInputValue()"; class="botao">Alterar Senha</button>
+                                        <script src="C:\Users\Lucas.DESKTOP-N6PH6NP\Desktop\edicaodidatiko\Edicaopagedidatiko\wwwroot\js"></script>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card card-inside">
+                                                <label class="col-md-4 control-label" style="position:relative; right:15px"><span class="naonegrito">CPF </span><span class="fina"> 111.111.111-11</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label class="col-md-4 control-label" for="f_rg"><span class="naonegrito">RG</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label class="col-md-4 control-label" for="f_email"><span class="naonegrito">E-mail </span><span class="fina"> lucas@didatiko.com.br</span></label>
+                                            </div>
+                                         </div>
+                                         <div class="row">
+                                            <div class="col-md-12">
+                                                <label class="col-md-4 control-label"><span class="naonegrito">Telefone</span> <span class="fina">- Fixo Pessoal</span></label>
+                                                    <div class="col-md-8">
+                                                        <p>
+                                                        </p>
+                                                    </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="lado">
+                                    <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/116/116345.png?w=740&t=st=1659558497~exp=1659559097~hmac=7c85f65f92642b48577e8afcb7ec53d15ad075887b0d84401755568427eefc96" width:25px height="25" />
+                                
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#um" aria-expanded="true" aria-controls="collapseExample" style="font-size:20px">
+                                        Dados Complementares
+                                    </button>
+                                    <hr />
+                                    </p>
+                                    <div class="collapse" id="um">
+                                        <div class="card card-body">
+                                            Data Nascimento<br />
+                                            Sexo<br />
+                                            Estado Civil<br />
+                                            Nacionalidade<br />
+                                            Grau Instrução<br />
+                                            Profissão<br />
+                                            Local Trabalho
+                                        </div>
+                                    </div>
+                                    
+                                    <p>
+                                    <img src="https://cdn.icon-icons.com/icons2/1489/PNG/512/locationmarker_102659.png" height="25" width:20px />
+                            
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#dois" aria-expanded="true" aria-controls="collapseExample" style="font-size:20px">
+                                        Endereço
+                                    </button>
+                                    <hr />
+                                    </p>
+                                    
+                                    <div class="collapse ladinho" id="dois">
+                                        <div class="card card-body=">
+                                            CEP          <b><span class="fina">    89221-147</span></b><br />
+                                            Endereço     <b><span class="fina">    RUA CAPINZAL</span></b><br />
+                                            Complemento<br />
+                                            Bairro       <b><span class="fina">    SAGUAÇU</span></b><br />
+                                            Localidade   <b><span class="fina">    JOINVILLE/SC</span></b><br />
+                                        </div>    
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    
+    <div class="canto">
+        <p>SIS00701</p>
+    </div>
+</body>
+</html>
